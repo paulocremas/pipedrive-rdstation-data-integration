@@ -46,7 +46,7 @@ This workflow is powered by **Google Apps Script**, running on a time-based trig
 - CRM 2: **RD Station**
 - API Consumer: **KONDADO**
 
-## 📁 Final Output
+## Final Output
 
 A consolidated Google Sheet combining:
 - Transaction details

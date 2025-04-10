@@ -9,9 +9,9 @@ The goal is to consolidate deal data from **Pipedrive** and **RD Station**—mad
 ## Structure
 
 ### Spreadsheet 1
-- **Sheet: deals**  
+- **Sheet: Deals**  
   Contains detailed information about deals, each identified by a `deal_id`.
-- **Sheet: Email-deal Mapping**  
+- **Sheet: Email-Deal Mapping**  
   Maps `email` addresses to their respective `deal_id`.
 
 ### Spreadsheet 2
@@ -21,8 +21,8 @@ The goal is to consolidate deal data from **Pipedrive** and **RD Station**—mad
 
 The script runs **automatically every day** and follows these steps:
 
-1. **Extract Email-deal Pairs**  
-   Reads new data from the **Email-deal Mapping** sheet (Spreadsheet 1) and builds a list of valid `(email, deal_id)` pairs.
+1. **Extract Email-Deal Pairs**  
+   Reads new data from the **Email-Deal Mapping** sheet (Spreadsheet 1) and builds a list of valid `(email, deal_id)` pairs.
 
 2. **Filter Valid Users**  
    Filters out entries where the `email` does not exist in the user database (Spreadsheet 2).
@@ -49,6 +49,6 @@ This workflow is powered by **Google Apps Script**, running on a time-based trig
 ## Final Output
 
 A consolidated Google Sheet combining:
-- deal details
+- Deal details
 - User information
 - Status tracking

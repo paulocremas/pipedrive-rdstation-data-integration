@@ -4,7 +4,7 @@
 const projectName = "Pipedrive + RD Station"
 
 // Lista de e-mails
-const recipient = "cremascopaulo@gmail.com , pivapaulo@outlook.com";
+const recipient = "--";
 
 // Nomes das sheets
 const pipedriveDeals = "pipedrive_deals";
@@ -20,9 +20,9 @@ function conectToSheets(){
   }
 
   // Declaração aos id's das planilhas
-  const idPipedrive = "13CWhdq6ZxqkQ_QVY8etKoA6hNnAN1U8hfu2OR_mie7w"; // "1gjvt6AKzFDTEA86YY7RAjiqLjKTzauWxbKmRyON81V0";
-  const idRdStation = "1FwSauFMqOzWPPIID1jPC3QiikzrG5gIJ9Yl138KhpYQ"; //"1pS82Wi6SW3OhsG0f3qfteWdnsbiZjXgzv8S8TLyA51I";
-  const idPipeRd = "12rjFnmKqxvYu7-Y7juo5BLfA354wVW0SimYgalLcOto";
+  const idPipedrive = "--";
+  const idRdStation = "--";
+  const idPipeRd = "--";
 
   // Conexão as abas das planilhas
   const sheetPipedriveDeals = getSheet(idPipedrive , pipedriveDeals);
